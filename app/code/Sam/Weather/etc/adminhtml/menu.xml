@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sam_Weather::manager" title="Grid Manager" module="Sam_Weather" sortOrder="10" resource="Sam_Weather::manager"/>
+        <add id="Sam_Weather::add_row" title="Grid Manager" module="Sam_Weather" sortOrder="20" parent="Sam_Weather::manager" action="grid/grid" resource="Sam_Weather::add_row"/>
+    </menu>
+</config>
